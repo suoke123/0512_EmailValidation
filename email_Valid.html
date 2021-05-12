@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>이메일 유효성 검사</title>
+    <style>
+        * {
+            font-size: 26px;
+        }
+
+        fieldset {
+            width: 400px;
+            padding: 20px;
+        }
+
+        button {
+            margin: 10px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <h1>이메일 유효성 검사</h1>
+
+    <fieldset>
+        <legend>이메일입력</legend>
+        <input type="text" size="8" placeholder="계정">
+        @
+        <input type="text" size="8" placeholder="주소">
+    </fieldset>
+    <button type="button">확인</button>
+
+    <fieldset>
+        <legend>유효성 검사</legend>
+        <span id="res"></span>
+    </fieldset>
+
+</body>
+</html>
